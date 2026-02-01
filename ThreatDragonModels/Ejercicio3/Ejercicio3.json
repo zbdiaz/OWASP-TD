@@ -49,6 +49,13 @@
                 "edf3bc4f-c886-4ccb-a81b-22727eebb695",
                 "b9d3eaa0-21c1-4755-8168-2126e7bf14b0"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -352,6 +359,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Usuario Anónimo"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -446,7 +456,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Usuario Anónimo",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -462,10 +472,13 @@
               "y": -255
             },
             "size": {
-              "width": 112.5,
+              "width": 110,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Usuario \nAutenticado"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -560,7 +573,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Usuario \nAutenticado",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -580,6 +593,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Administrador"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -674,7 +690,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Administrador",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
