@@ -77,8 +77,8 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "0eaf1214-9ada-4e6c-badb-ea1026bb64c9",
-                "27f0e94e-1bf5-45aa-bdb1-d58fc9010f31",
-                "096d73db-1cbd-4ee4-88ae-78b060976403"
+                "096d73db-1cbd-4ee4-88ae-78b060976403",
+                "bb8f0738-39f9-427e-8c5e-afb3ae62936e"
               ],
               "containedElements": [
                 "10456566-fac7-404b-8bb8-e5abfa271233",
@@ -108,9 +108,9 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "0eaf1214-9ada-4e6c-badb-ea1026bb64c9",
-                "27f0e94e-1bf5-45aa-bdb1-d58fc9010f31",
                 "50562076-4fa4-4925-b073-9c86f98c1349",
-                "096d73db-1cbd-4ee4-88ae-78b060976403"
+                "096d73db-1cbd-4ee4-88ae-78b060976403",
+                "bb8f0738-39f9-427e-8c5e-afb3ae62936e"
               ],
               "containedElements": [
                 "2762a86e-de2e-427f-802d-bac9762ef769",
@@ -1098,56 +1098,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "56fa5afc-e747-405a-a2e7-527853dfb9dd",
-                "49e7f29e-ccb8-4052-89cd-64991cfa416e"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "27f0e94e-1bf5-45aa-bdb1-d58fc9010f31",
-            "source": {
-              "cell": "b2795fda-9fdf-46a5-80b7-ba241e2f0545",
-              "port": "a31b1029-81c7-42a4-a333-d3bfef117d78"
-            },
-            "target": {
-              "cell": "1e4b9ee0-ff3e-4ec8-9068-b9fa127e4a90",
-              "port": "43f1e85c-6262-4d41-a5b6-ba2d78568e5b"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
                 "49e7f29e-ccb8-4052-89cd-64991cfa416e"
               ]
             },
@@ -1214,6 +1164,61 @@
               "port": "43f1e85c-6262-4d41-a5b6-ba2d78568e5b"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "56fa5afc-e747-405a-a2e7-527853dfb9dd",
+                "49e7f29e-ccb8-4052-89cd-64991cfa416e"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "bb8f0738-39f9-427e-8c5e-afb3ae62936e",
+            "source": {
+              "cell": "b2795fda-9fdf-46a5-80b7-ba241e2f0545",
+              "port": "db68fcec-00a4-46a2-9efd-3d6f28b3a5a7"
+            },
+            "target": {
+              "cell": "1e4b9ee0-ff3e-4ec8-9068-b9fa127e4a90",
+              "port": "43f1e85c-6262-4d41-a5b6-ba2d78568e5b"
+            },
+            "vertices": [
+              {
+                "x": 773,
+                "y": -230
+              }
+            ]
           },
           {
             "position": {
