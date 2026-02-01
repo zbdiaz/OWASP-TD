@@ -49,13 +49,6 @@
                 "edf3bc4f-c886-4ccb-a81b-22727eebb695",
                 "b9d3eaa0-21c1-4755-8168-2126e7bf14b0"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -112,7 +105,7 @@
           {
             "position": {
               "x": 345,
-              "y": -350
+              "y": -325
             },
             "size": {
               "width": 90,
@@ -232,7 +225,7 @@
           {
             "position": {
               "x": 340,
-              "y": -170
+              "y": -210
             },
             "size": {
               "width": 100,
